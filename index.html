@@ -5,23 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="container">
             <nav class="header__nav">
                 <div class="header__logo">
-                    <p class="logo_name">Kelvin</p>
+                    <a href="!#"><p class="logo_name">Kelvin</p></a>
                 </div>
-                <ul class="header__nav-list">
-                    <li>qwe</li>
-                    <li>qwe</li>
-                    <li>qwe</li>
-                    <li>qwe</li>
-                    <li>qwe</li>
-                </ul>
+                <div id="nav" class="nav">
+                    <ul class="header__nav-list">
+                        <li class="list_item"><a href="!#">Home</a></li>
+                        <li class="list_item"><a href="!#">Works</a></li>
+                        <li class="list_item"><a href="!#">Serwices</a></li>
+                        <li class="list_item"><a href="!#">About</a></li>
+                        <li class="list_item"><a href="!#">Contact</a></li>
+                    </ul>
+                    <button id="nav-button" class="nav__button">
+                        <img id="button-img" src="./img/icons/NAV_open.svg" alt="#open">
+                    </button>
+                </div>
             </nav>
+            <div class="header__content">
+                <div class="header__title">
+                    <h1>
+                        Kelvin Kramer Designer & Developer
+                    </h1>
+                    <p>
+                        I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
+                    </p>
+                </div>
+                <div class="header__image">
+                    <img src="./img/header/hero.png" alt="#person">
+                </div>
+            </div>
         </div>
     </header>
+    <section class="service">
+        <div class="container serv-mod">
+            <div class="service__cart">
+                <img src="./img/services/graphic 1.svg" alt="#service1">
+                <h3>
+                    UI/UX Design
+                </h3>
+                <p>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </p>
+            </div>
+            <div class="service__cart">
+                <img src="./img/services/startup 1.svg" alt="#service2">
+                <h3>
+                    Development
+                </h3>
+                <p>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </p>
+            </div>
+            <div class="service__cart">
+                <img src="./img/services/browser 1.svg" alt="#service3">
+                <h3>
+                    Software testing
+                </h3>
+                <p>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container pf-mod">
+            <h2 class="portfolio__title">
+                Portfolio
+            </h2>
+            <div class="portfolio__cart"> 
+                <img src="./img/porfolio/01.jpg" alt="#portfolio_1">
+                <p><a href="!#">Online fashion store - Homepage</a></p>
+            </div>
+            <div class="portfolio__cart"> 
+                <img src="./img/porfolio/02.jpg" alt="#portfolio_2">
+                <p><a href="!#">Reebok Store - Concept</a></p>
+            </div>
+            <div class="portfolio__cart cr-mod"> 
+                <img src="./img/porfolio/03.jpg" alt="#portfolio_3">
+                <p><a href="!#">Braun Landing Page - Concept</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container ct-mod">
+            <h2>
+                Contacts
+            </h2>
+            <p class="contacts__text-top">
+                Want to know more or just chat? You are welcome!
+            </p>
+            <button class="contacts__button">
+                Send message
+            </button>
+            <div class="contacts__link">
+                <a href="!#"><img src="./img/socials/LinkedIn.svg" alt="#LinkedIn"></a>
+                <a href="!#"><img src="./img/socials/Instargam.svg" alt="#Instargam"></a>
+                <a href="!#"><img src="./img/socials/Behance.svg" alt="#Behance"></a>
+                <a href="!#"><img src="./img/socials/Dribble.svg" alt="#Dribble"></a>
+            </div>
+            <p class="contacts__text-buttom">
+                Like me on LinkedIn, Instagram, Behance, Dribble
+            </p>
+        </div> 
+    </section>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
